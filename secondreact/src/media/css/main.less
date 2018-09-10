@@ -2,6 +2,7 @@
 @import '../../../node_modules/antd/dist/antd.css';
 html {
   font-size: 62.5%;
+
 }
 body {
   font-size: 12px;
@@ -17,7 +18,7 @@ p {
   position: absolute;
   right: 0;
   top: 0;
-  overflow-y: scroll;
+  overflow-y: hidden;
   z-index: 2;
 }
 /*头部 DashBoardTop*/
@@ -130,4 +131,34 @@ p {
 //
 .ant-menu-item> .anticon::before {
   display: none;
+}
+
+//表单
+.mr-10 {
+  margin-right: 10px;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+.diInline {
+  display: inline-block;
+}
+.card {
+  height: 150px;
+  box-sizing: border-box;
+  border: 1px solid rgba(241, 201, 30, 0.98);
+  .card-header {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }
+  .card-body{
+    height: 98px;
+    line-height: 98px;
+    font-size: 24px;
+    text-align: center;
+    vertical-align: middle;
+  }
 }

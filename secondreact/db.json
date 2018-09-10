@@ -1,0 +1,28 @@
+{
+  "records": [
+    {
+      "date": "11",
+      "title": "22",
+      "amount": 3,
+      "id": 4
+    },
+    {
+      "date": "11",
+      "title": "22",
+      "amount": 33,
+      "id": 5
+    },
+    {
+      "date": "tiankun",
+      "title": "kkun",
+      "amount": 111,
+      "id": 7
+    },
+    {
+      "date": "2018-09-09",
+      "title": "测试",
+      "amount": -9,
+      "id": 8
+    }
+  ]
+}
